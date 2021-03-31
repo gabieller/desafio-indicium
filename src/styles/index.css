@@ -1,6 +1,6 @@
 .container {
   background-color: #314d87;
-  color:white;
+  color: white;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -16,20 +16,17 @@
   flex-direction: column;
 }
 
-h2 {
-  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serifbri;
+p {
+  font-size: 1.2rem;
 }
-/* .main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
+
+h2 {
+  font-family: "B612", sans-serif;
+  font-size: 2.5rem;
+}
 
 .home {
-  background: linear-gradient(90deg, #314d87 50%, #A0BBF2 50%);
+  background: linear-gradient(90deg, #314d87 50%, #a0bbf2 50%);
   width: 100%;
   padding: 10rem 6rem;
   display: flex;
@@ -37,27 +34,28 @@ h2 {
   justify-content: center;
 }
 
-.title h1{
+.title h1 {
   font-family: "Fira Code", monospace;
   font-weight: 500;
   display: flex;
   flex-direction: row;
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
 }
 
 .about {
   background-color: #fff;
-  color: black;
+  color: #436bba;
 }
+
 .about-grid {
   display: inline-grid;
 }
 
 .grid-columns {
-	grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
   column-gap: 80px;
 }
 
@@ -66,12 +64,12 @@ h2 {
   height: 100%;
   width: 100%;
   border-radius: 5%;
-
 }
 
 .skills {
   background-color: #fff;
   color: #000;
+  color: #436bba;
 }
 
 /* .title a:hover,

@@ -1,5 +1,7 @@
 .sidebar {
   position: fixed;
+  display: flex;
+  justify-content: center;
   width: 8%;
   background-color: #d78001;
   height: 100vh;
@@ -8,32 +10,36 @@
 
 .nav ul {
   padding: 0;
-  margin: 0;
+  margin: auto;
 }
 
 .nav li {
   padding-top: 1rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
+  width: 100%;
   /* padding-left: .5rem; */
   cursor: pointer;
   /* padding-left: 1rem; */
 }
 
-/* .nav li:hover {
-  background-color: white ;
-  opacity: 30%;
+/* img .nav-item {
+  padding-right: 2rem;
 } */
 
-.nav ul::after {
+.nav li:hover {
+  cursor: pointer;
+
+}
+
+/* .nav ul::after {
   content: "";
   display: block;
   width: 1px;
   height: 300px;
   margin-left: 0.6rem;
   background-color: #fff;
-}
+} */
 
- 
 .list li {
   list-style: none;
 }
