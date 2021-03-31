@@ -7,3 +7,7 @@
   margin: auto;
   padding: 0px 50px;
 }
+
+.hamburger {
+  cursor: pointer;
+}

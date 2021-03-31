@@ -1,34 +1,34 @@
 import React, { Component, useState } from "react"
 import { HamburgerSpin } from "react-animated-burgers"
+import SideMenu from "./SideMenu"
 import Image from "next/image"
 import styles from "../styles/Header.module.css"
 
 class Header extends Component {
-  state = [{ isActive: false }]
+  state = [{ isActive: false }, { isSideMenuOpen: false }]
 
   toggleButton = () => {
-    this.setState({
-      isActive: !this.state.isActive,
+    this.setState(() => {
+      return {
+        isActive: !this.state.isActive,
+        isSideMenuOpen: !this.state.isSideMenuOpen,
+      }
     })
   }
 
   render() {
     return (
       <>
-        <nav className={`${styles.header}`}>
-          <div>
-            {/* <Image
-              src="/images/menu.svg"
-              width={36}
-              height={36}
-              alt="Hamburger Menu"
-            /> */}
-          </div>
-          ISSO é UMA NAVBAR
+        <nav className={styles.header}>
+          <HamburgerSpin
+            className={styles.hamburger}
+            isActive={this.state.isSideMenuOpen}
+            toggleButton={this.toggleButton}
+          />
         </nav>
-        <HamburgerSpin
-          isActive={this.state.isActive}
-          toggleButton={this.toggleButton}
+        <SideMenu
+          visible={this.state.isSideMenuOpen}
+          onClick={this.toggleButton}
         />
       </>
     )
