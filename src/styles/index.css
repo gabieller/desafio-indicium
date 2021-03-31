@@ -48,6 +48,10 @@ h2 {
   color: white;
 }
 
+.about {
+  background-color: #fff;
+  color: black;
+}
 .about-grid {
   display: inline-grid;
 }
@@ -63,6 +67,11 @@ h2 {
   width: 100%;
   border-radius: 5%;
 
+}
+
+.skills {
+  background-color: #fff;
+  color: #000;
 }
 
 /* .title a:hover,
