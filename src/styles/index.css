@@ -1,5 +1,5 @@
 .container {
-  background-color: #02679E;
+  background-color: #314d87;
   color:white;
   min-height: 100vh;
   width: 100%;
@@ -29,7 +29,7 @@ h2 {
 } */
 
 .home {
-  background: linear-gradient(90deg, #43A4D9 50%, #cbe2ef 50%);
+  background: linear-gradient(90deg, #314d87 50%, #A0BBF2 50%);
   width: 100%;
   padding: 10rem 6rem;
   display: flex;
