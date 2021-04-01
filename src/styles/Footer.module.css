@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+.title {
+  font-weight: 400;
+}
+
 .social__logos {
   width: 100%;
   display: flex;

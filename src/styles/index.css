@@ -12,7 +12,7 @@
 .section {
   width: 100%;
   display: flex;
-  padding: 5rem 10rem;
+  padding: 5rem 15rem;
   flex-direction: column;
 }
 
@@ -50,11 +50,11 @@ h2 {
   color: #436bba;
 }
 
-.about-grid {
+.grid {
   display: inline-grid;
 }
 
-.grid-columns {
+.grid-columns-about {
   grid-template-columns: 2fr 1fr;
   column-gap: 80px;
 }
@@ -70,6 +70,35 @@ h2 {
   background-color: #fff;
   color: #000;
   color: #436bba;
+}
+
+.skills-items::before {
+  content: "▹";
+  padding-right: 10px;
+  /* position: absolute; */
+}
+
+.skills li {
+  list-style: none;
+  padding: 1rem 0;
+  font-size: large;
+  font-weight: bold;
+}
+
+.grid-columns-skills {
+  grid-template-columns: repeat(2, 250px);
+  column-gap: 10px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.coding-girl {
+  position: absolute;
+  width: 60%;
+  left: 60%;
+  bottom: 150px;
 }
 
 /* .title a:hover,

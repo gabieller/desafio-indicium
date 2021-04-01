@@ -11,6 +11,8 @@ export default function NavBar() {
     setUri(window.location.hash)
   })
 
+  console.log(uri)
+
   // const uri = window.location.hash
 
   return (
@@ -28,8 +30,8 @@ export default function NavBar() {
             </li>
           </Link>
           <Link href="#interest">
-            <li className={`nav-item ${uri === "#interest" ? "active" : ""}`}>
-              <Image src="/images/sun.svg" height={36} width={36} />
+            <li className={`nav-item ${uri === "#experiences" ? "active" : ""}`}>
+              <Image src="/images/briefcase.svg" height={36} width={36} />
             </li>
           </Link>
           <Link href="#skills">
@@ -37,6 +39,7 @@ export default function NavBar() {
               <Image src="/images/computer.svg" height={36} width={36} />
             </li>
           </Link>
+         
         </ul>
       </nav>
     </div>

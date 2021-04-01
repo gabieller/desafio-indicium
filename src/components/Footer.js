@@ -6,6 +6,11 @@ import styles from "../styles/Footer.module.css"
 export default function Footer() {
   return (
     <footer className={styles.footer}>
+      <div>
+      <h2 className={styles.title}>
+        Entre em contato!
+      </h2>
+      </div>
       <div className={styles.social__logos}>
       <a href="https://github.com/gabieller" target="_blank">
         <Image src="/images/github.svg" width={24} height={24} />
