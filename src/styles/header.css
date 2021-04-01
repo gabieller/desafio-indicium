@@ -7,10 +7,10 @@
 }
 
 .header {
+  position: fixed;
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
-  position: fixed;
   margin: auto;
   padding: 10px 50px;
 }
@@ -64,6 +64,6 @@ button.btn:active::before {
   box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25rem 0 0 var(--colorShadeB);
 }
 
-button.btn:focus{
+button.btn:focus {
   outline: none;
 }

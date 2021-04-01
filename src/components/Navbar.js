@@ -11,9 +11,7 @@ export default function NavBar() {
     setUri(window.location.hash)
   })
 
-  console.log(uri)
 
-  // const uri = window.location.hash
 
   return (
     <div className={styles.sidebar}>

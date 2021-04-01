@@ -1,14 +1,9 @@
-// import Head from "next/head"
 import Layout from "../components/Layout"
-// import GoogleAnalytics from "../components/GoogleAnalytics"
-
 // import Image from "next/image"
 
 export default function Home() {
   return (
     <Layout>
-      {/* <GoogleAnalytics /> */}
-
       <div className="container">
         <div id="home" className="home">
           <div className="title">
