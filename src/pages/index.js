@@ -1,11 +1,14 @@
 // import Head from "next/head"
 import Layout from "../components/Layout"
-import Image from "next/image"
-// import "../styles/index.css"
+// import GoogleAnalytics from "../components/GoogleAnalytics"
+
+// import Image from "next/image"
 
 export default function Home() {
   return (
     <Layout>
+      {/* <GoogleAnalytics /> */}
+
       <div className="container">
         <div id="home" className="home">
           <div className="title">
@@ -14,8 +17,8 @@ export default function Home() {
         </div>
         <div id="about" className="section about">
           <div>
-          <h2>Quem sou eu</h2>
-          <h2>Interesses</h2>
+            <h2>Quem sou eu</h2>
+            <h2>Interesses</h2>
           </div>
           <div className="grid grid-columns-about">
             <p>
@@ -49,14 +52,14 @@ export default function Home() {
         <div id="skills" className="section skills">
           <h2>Skills</h2>
           <p>As principais tecnologias que trabalho atualmente são:</p>
-            <ul className="skills-list grid grid-columns-skills">
-              <li className="skills-items">HTML</li>
-              <li className="skills-items">CSS</li>
-              <li className="skills-items">JavaScript (ES6+)</li>
-              <li className="skills-items">React</li>
-              <li className="skills-items">SQL</li>
-              <li className="skills-items">GIT</li>
-            </ul>
+          <ul className="skills-list grid grid-columns-skills">
+            <li className="skills-items">HTML</li>
+            <li className="skills-items">CSS</li>
+            <li className="skills-items">JavaScript (ES6+)</li>
+            <li className="skills-items">React</li>
+            <li className="skills-items">SQL</li>
+            <li className="skills-items">GIT</li>
+          </ul>
           {/* </div> */}
 
           <div className="wrapper">
