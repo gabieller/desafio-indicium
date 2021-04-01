@@ -11,6 +11,18 @@ import styles from "../styles/Layout.module.css"
 //FOOTER
 
 export default function Layout(props) {
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-WB61H6RT3L');
+`,
+    }}
+  />
+
   return (
     <>
       <Head>
@@ -19,17 +31,6 @@ export default function Layout(props) {
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-WB61H6RT3L"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WB61H6RT3L');
-  `,
-          }}
         />
       </Head>
       <Header />
