@@ -29,7 +29,7 @@ gtag('config', 'G-WB61H6RT3L');
 `,
         }}
       />
-      <div className="container-fluid p-0">
+      <div>
         <Header />
         <NavBar />
         {props.children}

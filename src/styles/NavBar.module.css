@@ -1,14 +1,17 @@
 .sidebar {
   position: fixed;
-  display: flex;
-  justify-content: center;
-  width: 8%;
-  background-color: #d78001;
-  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  /* background-color: #d78001; */
+  height: 5%;
   font-size: 0.65em;
 }
 
 .nav ul {
+  display: inline-flex;
+  justify-content: space-evenly;
   padding: 0;
   margin: auto;
 }

@@ -3,7 +3,6 @@ body {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  overflow: hidden;
 }
 
 a {
@@ -17,7 +16,6 @@ a {
 
 .active {
   opacity: 30%;
-
 }
 
 

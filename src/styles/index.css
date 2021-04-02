@@ -3,11 +3,15 @@
   --SecondaryColor: #a0bbf2;
   --BackGroundWhite: #ffffff;
   --LettersColor: #436bba;
-  --LettersSecondary: #a8b2d1
+  --LettersSecondary: #a8b2d1;
+}
+
+.container-fluid {
+  overflow: hidden;
 }
 
 .section {
-  padding: 8rem 12rem;
+  padding: 8rem 0;
 }
 
 .home {
@@ -16,7 +20,6 @@
     var(--BackGroundColor) 50%,
     var(--SecondaryColor) 50%
   );
-  /* width: 100%; */
   padding: 10rem 6rem;
   display: flex;
   flex-direction: row;
@@ -86,9 +89,8 @@
 
 .coding-girl {
   position: absolute;
-  width: 60%;
-  left: 65%;
-  bottom: 200px;
+  right: 0%;
+  top: -50px;
 }
 
 @keyframes typewriter {
@@ -124,10 +126,14 @@ h1 {
 
 h2 {
   font-family: "Mulish", sans-serif;
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
 }
 
 h3 {
   font-family: "Mulish", sans-serif;
+  font-size: 2rem !important;
+  font-weight: bold !important;
 }
 
 p {
