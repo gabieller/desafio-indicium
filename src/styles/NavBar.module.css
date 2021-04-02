@@ -13,33 +13,20 @@
   margin: auto;
 }
 
+
+
 .nav li {
-  padding-top: 1rem;
+  padding-top: 2.75rem;
   padding-bottom: 1rem;
   width: 100%;
-  /* padding-left: .5rem; */
   cursor: pointer;
-  /* padding-left: 1rem; */
 }
-
-/* img .nav-item {
-  padding-right: 2rem;
-} */
 
 .nav li:hover {
   cursor: pointer;
-
 }
-
-/* .nav ul::after {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 300px;
-  margin-left: 0.6rem;
-  background-color: #fff;
-} */
 
 .list li {
   list-style: none;
 }
+ 

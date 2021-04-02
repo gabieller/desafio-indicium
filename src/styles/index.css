@@ -16,14 +16,9 @@
   flex-direction: column;
 }
 
-p {
-  font-size: 1.2rem;
-}
 
-h2 {
-  font-family: "B612", sans-serif;
-  font-size: 2.5rem;
-}
+
+
 
 .home {
   background: linear-gradient(90deg, #314d87 50%, #a0bbf2 50%);
@@ -34,15 +29,17 @@ h2 {
   justify-content: center;
 }
 
-.title h1 {
-  font-family: "Fira Code", monospace;
-  font-weight: 500;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 5rem;
-  color: white;
+
+
+
+.typewriter-text {
+  overflow: hidden;
+  position: relative;
+  width: 18rem;
+  border-right: 2px solid white;
+  white-space: nowrap;
+  animation: typewriter 2s steps(44) 0.5s 1 normal both,
+    blinkTextCursor 400ms steps(44) infinite normal;
 }
 
 .about {
@@ -97,28 +94,60 @@ h2 {
 .coding-girl {
   position: absolute;
   width: 60%;
-  left: 60%;
-  bottom: 150px;
+  left: 65%;
+  bottom: 200px;
 }
 
-/* .title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-} */
 
-/* .grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-} */
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18rem;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+h1 {
+  font-family: "Fira Code", monospace;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  line-height: 1.15;
+  font-size: 5rem;
+  color: white;
+}
+
+h2 {
+  font-family: "B612", sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "B612", sans-serif;
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.5rem;
 }

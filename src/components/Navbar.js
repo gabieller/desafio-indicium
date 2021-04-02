@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from "react"
+
 import Link from "next/link"
 import Image from "next/image"
 
 import styles from "../styles/NavBar.module.css"
 
 export default function NavBar() {
+
+
+
+  
   const [uri, setUri] = useState("")
 
   useEffect(() => {
     setUri(window.location.hash)
   })
-
-
 
   return (
     <div className={styles.sidebar}>
@@ -22,13 +25,16 @@ export default function NavBar() {
               <Image src="/images/home.svg" height={36} width={36} />
             </li>
           </Link>
+
           <Link href="#about">
             <li className={`nav-item ${uri === "#about" ? "active" : ""}`}>
               <Image src="/images/user.svg" height={36} width={36} />
             </li>
           </Link>
-          <Link href="#interest">
-            <li className={`nav-item ${uri === "#experiences" ? "active" : ""}`}>
+          <Link href="#experiences">
+            <li
+              className={`nav-item ${uri === "#experiences" ? "active" : ""}`}
+            >
               <Image src="/images/briefcase.svg" height={36} width={36} />
             </li>
           </Link>
@@ -37,7 +43,6 @@ export default function NavBar() {
               <Image src="/images/computer.svg" height={36} width={36} />
             </li>
           </Link>
-         
         </ul>
       </nav>
     </div>
