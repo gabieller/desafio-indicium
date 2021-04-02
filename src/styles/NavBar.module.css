@@ -4,7 +4,7 @@
   justify-content: center;
   width: 8%;
   background-color: #d78001;
-  height: 100vh;
+  height: 100%;
   font-size: 0.65em;
 }
 
@@ -13,17 +13,17 @@
   margin: auto;
 }
 
-
-
 .nav li {
   padding-top: 2.75rem;
   padding-bottom: 1rem;
   width: 100%;
   cursor: pointer;
+  transition: transform .2s
 }
 
 .nav li:hover {
   cursor: pointer;
+  transform: scale(1.5)
 }
 
 .list li {

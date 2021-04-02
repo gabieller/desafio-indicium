@@ -5,7 +5,7 @@ import Header from "../components/Header"
 import NavBar from "../components/Navbar"
 import Footer from "../components/Footer"
 
-import styles from "../styles/Layout.module.css"
+// import "../styles/layout.css"
 
 export default function Layout(props) {
   return (
@@ -29,9 +29,11 @@ gtag('config', 'G-WB61H6RT3L');
 `,
         }}
       />
-      <Header />
-      <NavBar />
-      <div className={styles.main}>{props.children}</div>
+      <div className="container-fluid p-0">
+        <Header />
+        <NavBar />
+        {props.children}
+      </div>
       <Footer />
     </>
   )

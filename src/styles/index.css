@@ -1,90 +1,83 @@
-.container {
-  background-color: #314d87;
-  color: white;
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  line-height: 1.75;
+:root {
+  --BackGroundColor: #314d87;
+  --SecondaryColor: #a0bbf2;
+  --BackGroundWhite: #ffffff;
+  --LettersColor: #436bba;
+  --LettersSecondary: #a8b2d1
 }
+
 .section {
-  width: 100%;
-  display: flex;
-  padding: 5rem 15rem;
-  flex-direction: column;
+  padding: 8rem 12rem;
 }
-
-
-
-
 
 .home {
-  background: linear-gradient(90deg, #314d87 50%, #a0bbf2 50%);
-  width: 100%;
+  background: linear-gradient(
+    90deg,
+    var(--BackGroundColor) 50%,
+    var(--SecondaryColor) 50%
+  );
+  /* width: 100%; */
   padding: 10rem 6rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-
-
-
 .typewriter-text {
   overflow: hidden;
   position: relative;
   width: 18rem;
-  border-right: 2px solid white;
+  border-right: 2px solid var(--BackGroundWhite);
   white-space: nowrap;
   animation: typewriter 2s steps(44) 0.5s 1 normal both,
     blinkTextCursor 400ms steps(44) infinite normal;
 }
 
 .about {
-  background-color: #fff;
-  color: #436bba;
-}
-
-.grid {
-  display: inline-grid;
-}
-
-.grid-columns-about {
-  grid-template-columns: 2fr 1fr;
-  column-gap: 80px;
+  background-color: var(--BackGroundWhite);
+  color: var(--LettersColor);
 }
 
 .pic-profile {
   object-fit: cover;
-  height: 100%;
-  width: 100%;
-  border-radius: 5%;
+}
+
+.border {
+  border: 5px solid black;
+}
+
+.experiences {
+  background-color: var(--BackGroundColor);
+  color: var(--LettersSecondary);
+}
+
+.description {
+  background-color: #112245;
+  color: var(--Letters);
+  z-index: 2;
+  position: absolute;
+  width: 320px;
+  height: 100px;
+  bottom: 170px;
+  z-index: 5;
+  left: -60px;
+  text-align: end;
+  border-radius: 4px;
 }
 
 .skills {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--BackGroundWhite);
   color: #436bba;
 }
 
-.skills-items::before {
+.items::before {
   content: "▹";
   padding-right: 10px;
-  /* position: absolute; */
 }
 
 .skills li {
-  list-style: none;
-  padding: 1rem 0;
   font-size: large;
   font-weight: bold;
-}
-
-.grid-columns-skills {
-  grid-template-columns: repeat(2, 250px);
-  column-gap: 10px;
 }
 
 .wrapper {
@@ -97,8 +90,6 @@
   left: 65%;
   bottom: 200px;
 }
-
-
 
 @keyframes typewriter {
   from {
@@ -126,28 +117,25 @@
   }
 }
 
-
 h1 {
   font-family: "Fira Code", monospace;
-  font-weight: 500;
-  display: flex;
-  flex-direction: row;
-  margin: 0;
-  line-height: 1.15;
-  font-size: 5rem;
   color: white;
 }
 
 h2 {
-  font-family: "B612", sans-serif;
-  font-size: 3rem;
+  font-family: "Mulish", sans-serif;
 }
 
 h3 {
-  font-family: "B612", sans-serif;
-  font-size: 2.5rem;
+  font-family: "Mulish", sans-serif;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+li {
+  list-style: none;
+  padding: 1rem 0;
 }
