@@ -98,7 +98,7 @@
     width: 0;
   }
   to {
-    width: 18rem;
+    width: 40rem;
   }
 }
 
@@ -120,8 +120,9 @@
 }
 
 h1 {
+  font-size: 5rem !important;
   font-family: "Fira Code", monospace;
-  color: white;
+  color: var(--BackGroundWhite);
 }
 
 h2 {

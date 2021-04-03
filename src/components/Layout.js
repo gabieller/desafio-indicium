@@ -1,11 +1,8 @@
 import React from "react"
 import Head from "next/head"
-// import GoogleAnalytics from "../components/GoogleAnalytics"
 import Header from "../components/Header"
-import NavBar from "../components/Navbar"
 import Footer from "../components/Footer"
 
-// import "../styles/layout.css"
 
 export default function Layout(props) {
   return (
@@ -31,7 +28,6 @@ gtag('config', 'G-WB61H6RT3L');
       />
       <div>
         <Header />
-        {/* <NavBar /> */}
         {props.children}
       </div>
       <Footer />
