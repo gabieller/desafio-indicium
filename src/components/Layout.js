@@ -31,7 +31,7 @@ gtag('config', 'G-WB61H6RT3L');
       />
       <div>
         <Header />
-        <NavBar />
+        {/* <NavBar /> */}
         {props.children}
       </div>
       <Footer />

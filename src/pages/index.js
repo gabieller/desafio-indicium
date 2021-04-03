@@ -10,7 +10,7 @@ export default function Home() {
           </div>
         </div>
         <div id="about" className="section about">
-          <div className="container">
+          <div className="container px-5">
             <div className="d-flex flex-column flex-md-row">
               <div className="col-11 col-md-8 px-4 px-md-0">
                 <h2>Quem sou eu</h2>
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
         <div id="experiences" className="section experiences">
-          <div className="container">
+          <div className="container px-5">
             <h3>Experiências</h3>
             <div className="container d-flex flex-row">
               <div className="col-10">
@@ -98,7 +98,7 @@ export default function Home() {
           </div>
         </div>
         <div id="skills" className="section skills">
-          <div className="container">
+          <div className="container px-5">
             <h3>Skills</h3>
             <p className="col-9 col-md-12">
               As principais tecnologias que trabalho atualmente são:

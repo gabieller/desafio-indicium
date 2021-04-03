@@ -49,4 +49,3 @@ export default function NavBar() {
   )
 }
 
-// export default sideMenu
