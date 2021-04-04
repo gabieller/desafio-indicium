@@ -1,6 +1,6 @@
 ## Desafio Indicium
 
-Página desenvolvida para o processo seletivo para  vaga de front-end (estágio) da empresa Indicium
+Página desenvolvida para o processo seletivo para  vaga de front-end (estágio) da empresa **Indicium.**
 
 Open [Desafio Indicium](https://desafio-indicum.vercel.app/) no navegador para ver o resultado.
 
@@ -23,7 +23,7 @@ A linguagem e framework são opcionais porém obrigatoriamente deve conter:
 * tag analytics.
 
 
-** A tag do Google Analytics foi instalada no componente Layout **
+*A tag do Google Analytics foi instalada no componente Layout.*
 
 ## Tecnologias 
 
