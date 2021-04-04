@@ -49,7 +49,7 @@ export default function Home() {
               </p>
               <p>
                 Hoje busco me aprimorar não só com o JavaScript mas também
-                utilizando o framework React atráves de cursos e projetos
+                utilizando o framework React por meio de cursos e projetos
                 pessoais.
               </p>
             </div>
