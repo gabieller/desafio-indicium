@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Desafio Indicium
 
-## Getting Started
+Página desenvolvida para o processo seletivo para  vaga de front-end (estágio) da empresa Indicium
 
-First, run the development server:
+Open [Desafio Indicium](https://desafio-indicum.vercel.app/) no navegador para ver o resultado.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+O código final pode ser acessado pelo reposotório no [GitHub] (https://github.com/gabieller/desafio-indicum)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Informações Gerais
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+O desafio consiste em criar uma página CV personalizada, com pelo menos as seguintes sessões: 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+* Minha história
+* Meus interesses
+* Minha experiência.
 
-## Learn More
+A linguagem e framework são opcionais porém obrigatoriamente deve conter: 
 
-To learn more about Next.js, take a look at the following resources:
+* Barra de navegação
+* Título de conteúdo de cada sessão
+* Rodapé
+* tag analytics.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+** A tag do Google Analytics foi instalada no componente Layout **
 
-## Deploy on Vercel
+## Tecnologias 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O projeto foi criado utilizando: 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* React JS
+* Bootstrap
+* Next.js.
