@@ -13,7 +13,7 @@ O desafio consiste em criar uma página CV personalizada, com pelo menos as segu
 
 * Minha história,
 * Meus interesses,
-* Minha experiência.
+* Minhas experiência.
 
 A linguagem e framework são opcionais porém obrigatoriamente deve conter: 
 
