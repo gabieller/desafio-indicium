@@ -45,7 +45,7 @@ export default function Home() {
                 Python, porém buscava algo mais visual, algo em que houvesse uma
                 interação maior com o usuário. Pensando nisso, expandi meus
                 conhecimentos de programação para a linguagem JavaScript para me
-                inserir no mundo de desenvolvimento web - Fron-End.
+                inserir no mundo de desenvolvimento web - Front-End.
               </p>
               <p>
                 Hoje busco me aprimorar não só com o JavaScript mas também
@@ -82,7 +82,7 @@ export default function Home() {
               <ul className="px-0">
                 <li className="items">
                   Bootcamp Desenvolvedor Full Stack, Instituto de Gestão e
-                  Tecnologia da Informação - IGTI. Carga horária: 148h
+                  Tecnologia da Informação - IGTI. Carga horária: 148h.
                 </li>
                 <li className="items">
                   Junho/2020 - Getting Started with AWS Machine Learning,
