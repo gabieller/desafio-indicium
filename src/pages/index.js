@@ -20,7 +20,7 @@ export default function Home() {
               <div className="col-11 col-md-8 px-0">
                 <h2>Quem sou eu</h2>
                 <p className="pt-3">
-                  Meu nome é Gabriela, natural de Florianópolis e formada em
+                  Meu nome é Gabriela Silva Eller, sou natural de Florianópolis e formada em
                   Engenharia de Materiais pela Universidade Federal de Santa
                   Catarina.
                 </p>
@@ -43,7 +43,7 @@ export default function Home() {
                 Meu interesse no desenvolvimento web surgiu na metade de 2020,
                 onde já tinha noções de lógica de programação, utilizando
                 Python, porém buscava algo mais visual, algo em que houvesse uma
-                interação maior com o usuário. Buscando isso, expandi meus
+                interação maior com o usuário. Pensando nisso, expandi meus
                 conhecimentos de programação para a linguagem JavaScript para me
                 inserir no mundo de desenvolvimento web - Fron-End.
               </p>
