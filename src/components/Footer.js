@@ -24,7 +24,7 @@ export default function Footer() {
       </div>
       <div className={styles.copyright}>
         <span>
-          Design & Contrução por <br/> Gabriela Silva Eller
+          Design & Código por <br/> Gabriela Silva Eller
         </span>
       </div>
     </footer>

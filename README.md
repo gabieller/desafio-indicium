@@ -11,16 +11,16 @@ O código final pode ser acessado pelo reposotório no [GitHub](https://github.c
 
 O desafio consiste em criar uma página CV personalizada, com pelo menos as seguintes sessões: 
 
-* Minha história
-* Meus interesses
+* Minha história,
+* Meus interesses,
 * Minha experiência.
 
 A linguagem e framework são opcionais porém obrigatoriamente deve conter: 
 
-* Barra de navegação
-* Título de conteúdo de cada sessão
-* Rodapé
-* tag analytics.
+* Barra de navegação,
+* Título de conteúdo de cada sessão,
+* Rodapé,
+* Tag analytics.
 
 
 *A tag do Google Analytics foi instalada no componente Layout.*
@@ -29,6 +29,6 @@ A linguagem e framework são opcionais porém obrigatoriamente deve conter:
 
 O projeto foi criado utilizando: 
 
-* React JS
-* Bootstrap
+* React JS,
+* Bootstrap,
 * Next.js.

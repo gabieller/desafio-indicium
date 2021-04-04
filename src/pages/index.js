@@ -3,7 +3,12 @@ import Layout from "../components/Layout"
 export default function Home() {
   return (
     <Layout>
-      <div className="container-fluid p-0">
+      <div
+        className="container-fluid p-0"
+        data-bs-spy="scroll"
+        data-bs-target="#list-example"
+        data-bs-offset="0"
+      >
         <div id="home" className="home">
           <div className="d-flex">
             <h1 className="typewriter-text  text-center">Hello, World!</h1>
