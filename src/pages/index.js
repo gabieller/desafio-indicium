@@ -12,7 +12,7 @@ export default function Home() {
         <div id="about" className="section about">
           <div className="container px-5">
             <div className="d-flex flex-column flex-md-row">
-              <div className="col-11 col-md-8 px-4 px-md-0">
+              <div className="col-11 col-md-8 px-0">
                 <h2>Quem sou eu</h2>
                 <p className="pt-3">
                   Meu nome é Gabriela, natural de Florianópolis e formada em
@@ -32,7 +32,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="col-11 col-md-8 px-4 px-md-0">
+            <div className="col-11 col-md-8 px-0">
               <h3>Interesses</h3>
               <p className="py-3">
                 Meu interesse no desenvolvimento web surgiu na metade de 2020,
@@ -64,7 +64,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="wrapper">
-                <div className="description shadow-lg  p-3">
+                <div className="description shadow-lg p-2 p-md-3">
                   <small>
                     Desenvolvimento do website da empresa The Routing Company em
                     parceria com Scharf Studio.
@@ -72,9 +72,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <h4>Cursos</h4>
+            <h4 className="pt-5 pt-md-0">Cursos</h4>
             <div className="col-11 col-md-7">
-              <ul>
+              <ul className="px-0">
                 <li className="items">
                   Bootcamp Desenvolvedor Full Stack, Instituto de Gestão e
                   Tecnologia da Informação - IGTI. Carga horária: 148h
@@ -100,10 +100,10 @@ export default function Home() {
         <div id="skills" className="section skills">
           <div className="container px-5">
             <h3>Skills</h3>
-            <p className="col-9 col-md-12">
+            <p className="col-12">
               As principais tecnologias que trabalho atualmente são:
             </p>
-            <ul className="skills-list d-flex flex-row">
+            <ul className="skills-list d-flex flex-row px-0">
               <div className="col-6">
                 <li className="items">HTML</li>
                 <li className="items">CSS</li>

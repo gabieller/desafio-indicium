@@ -80,3 +80,11 @@ button.btn:focus {
 .navbar li:hover {
   transform: scale(1.5);
 }
+
+@media (max-width:768px) {
+  ul li img {
+    height: 24px;
+    width: 24px;
+
+  }
+}
