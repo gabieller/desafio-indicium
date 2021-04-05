@@ -2,7 +2,7 @@
 
 Página desenvolvida para o processo seletivo para  vaga de front-end (estágio) da empresa **Indicium.**
 
-Abra [Desafio Indicium](https://desafio-indicum.vercel.app/) no navegador para ver o resultado.
+Abra [Desafio Indicium](https://desafio-indicium.vercel.app/) no navegador para ver o resultado.
 
 O código final pode ser acessado pelo reposotório no [GitHub](https://github.com/gabieller/desafio-indicum)
 
